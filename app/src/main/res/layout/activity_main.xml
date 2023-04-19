@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select your thoughts language..."
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_180sdp"
+        android:textSize="@dimen/_14sdp"
+        android:fontFamily="serif"
+        android:textColor="#818080"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <TextView
+            android:id="@+id/English"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:background="@drawable/shape"
+            android:text="English"
+            android:textSize="@dimen/_22sdp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/Hindi"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:background="@drawable/shape"
+            android:text="हिंदी"
+            android:textSize="@dimen/_22sdp"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quotes is way to motivate yourself so here you \nyou can motivate yourself or refresh yourself in anyy\ntwo of language you want."
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/_180sdp"
+        android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</FrameLayout>

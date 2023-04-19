@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_15sdp"
+    app:cardElevation="@dimen/_10sdp"
+    app:cardBackgroundColor="#C9E5F1"
+    app:cardUseCompatPadding="true">
+    
+    <TextView
+        android:id="@+id/hiQuotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/_12sdp"
+        android:textSize="@dimen/_12sdp"
+        android:letterSpacing="0.2"/>
+
+</androidx.cardview.widget.CardView>
